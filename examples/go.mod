@@ -1,14 +1,14 @@
 module main
 
-go 1.23.4
+go 1.23.1
 
 // require  v2.8.0
 
-replace github.com/adshao/go-binance/v2 => ../v2
+replace github.com/quantcatxyz/go-binance/v2 => ../v2
 
-replace github.com/adshao/go-binance/v2/futures => ../v2/futures
+replace github.com/quantcatxyz/go-binance/v2/futures => ../v2/futures
 
-require github.com/adshao/go-binance/v2 v2.0.0-00010101000000-000000000000
+require github.com/quantcatxyz/go-binance/v2 v2.0.0
 
 require (
 	github.com/bitly/go-simplejson v0.5.0 // indirect
